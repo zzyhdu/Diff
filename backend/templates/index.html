@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>快递对账</title>
+</head>
+<body>
+    <h1>快递对账</h1>
+    <form method="POST" enctype="multipart/form-data" action="/">
+        <label for="expressBill">快递公司账单：</label>
+        <input type="file" name="expressBill" required><br>
+        <label for="salesData">销售系统数据：</label>
+        <input type="file" name="salesData" required><br>
+        <input type="submit" value="执行对账">
+    </form>
+</body>
+</html>
